@@ -1,0 +1,6 @@
+{
+  "workspace": [
+    "./packages/test-package-json",
+    "./packages/test-deno-json"
+  ],
+}

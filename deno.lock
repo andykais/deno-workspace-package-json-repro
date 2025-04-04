@@ -1,0 +1,35 @@
+{
+  "version": "4",
+  "specifiers": {
+    "jsr:@std/datetime@~0.225.3": "0.225.3",
+    "npm:lodash@^4.17.21": "4.17.21"
+  },
+  "jsr": {
+    "@std/datetime@0.225.3": {
+      "integrity": "fda0b7791b43d9a46764986fec39922a8ceb70ffca642651fa7d0683501a171a"
+    }
+  },
+  "npm": {
+    "lodash@4.17.21": {
+      "integrity": "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg=="
+    }
+  },
+  "workspace": {
+    "members": {
+      "packages/test-deno-json": {
+        "dependencies": [
+          "jsr:@std/datetime@~0.225.3",
+          "npm:lodash@^4.17.21"
+        ]
+      },
+      "packages/test-package-json": {
+        "packageJson": {
+          "dependencies": [
+            "npm:@jsr/std__datetime@~0.225.3",
+            "npm:lodash@^4.17.21"
+          ]
+        }
+      }
+    }
+  }
+}

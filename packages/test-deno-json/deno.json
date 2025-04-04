@@ -1,0 +1,8 @@
+{
+  "name": "test-deno-json",
+  "imports": {
+    "@std/datetime": "jsr:@std/datetime@^0.225.3",
+    "lodash": "npm:lodash@^4.17.21"
+  },
+  "exports": "./test.ts"
+}
