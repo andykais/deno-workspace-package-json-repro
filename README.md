@@ -26,3 +26,11 @@ error: npm package '@jsr/std__datetime' does not exist.
 ```
 
 The deno error will stop appearing if you drop the ./packages/test-package-json from the top level workspace
+
+
+## Additional details
+```
+deno 2.2.7 (stable, release, aarch64-apple-darwin)
+v8 13.5.212.4-rusty
+typescript 5.7.3
+```
